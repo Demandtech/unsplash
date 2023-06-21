@@ -1,4 +1,12 @@
+import { Gallery, SearchForm, ThemeToggle } from './components'
+
 const App = () => {
-  return <h1>Unsplash Images Starter</h1>;
-};
-export default App;
+  return (
+    <>
+      <ThemeToggle />
+      <SearchForm />
+      <Gallery />
+    </>
+  )
+}
+export default App
